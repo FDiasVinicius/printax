@@ -15,7 +15,7 @@ Lib jQuery para impressão customizada de pagina HTML. Suporte a CSS e JS person
 
 # Exemplo
 
-function print(){
+			function print(){
 				var toPrint = new printaxDoc();
 				toPrint.addContent(jQuery("#myDiv"));
 				toPrint.makeContent("<p>Hello Printax.js!</p>");
